@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Basic Nav</title>
+	<style>
+		body {
+			background-color: #c0c0c0;
+			font: 16px arial;
+			margin: 0;
+		}
+
+		ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.main-nav {
+			background-color: goldenrod;
+			padding: .5em;
+		}
+
+		.main-nav ul:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		.main-nav li {
+			border-right: 2px solid maroon;
+			float: left;
+		}
+
+		.main-nav li:first-child {
+			border-left: 2px solid maroon;
+		}
+
+		.main-nav a {
+			background-color: tomato;
+			text-decoration: none;
+			color: white;
+			padding: .5em 1em;
+			display: block;
+		}
+
+		.main-nav a:hover {
+			background-color: gold;
+			color: #333333;
+		}
+
+		.main-nav a.current {
+			background-color: darkgoldenrod;
+		}
+	</style>
+</head>
+<body>
+
+<nav class="main-nav">
+	<ul>
+		<li><a href="index.html">home</a></li>
+		<li><a href="news.html">news</a></li>
+		<li><a href="entertainment.html">entertainment</a></li>
+		<li><a href="sports.html" class="current">sports</a></li>
+		<li><a href="weather.html">weather</a></li>
+	</ul>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Javascript</title>
+  <link rel="stylesheet" href="css/2-javascript.css">
+</head>
+<body>
+<div class="main">
+  <form action="/submit.html">
+    <img src="images/logo.svg" alt="">
+    <div class="row">
+      <label for="username">User Name</label>
+      <input type="text" id="username" name="username">
+    </div>
+    <div class="error" id="error-username"></div>
+    <div class="row">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <div class="error" id="error-password"></div>
+    <div class="submit-row">
+      <button class="submit" type="submit">Submit</button>
+      <a href="/signup.html">Sign Up</a>
+    </div>
+  </form>
+</div>
+
+<script>
+  // var name = "Dan";
+  // var isCool = true;
+  // if(isCool === true) {
+  //   console.log("I am cool");
+  // }
+  // console.log(name);
+  // console.log(100 * 40 / 3.14);
+  // console.log('this is a string with out a var')
+
+  var username = document.getElementById('username');
+  var password = document.getElementById('password');
+  var usernameError = document.getElementById('error-username');
+  var passwordError = document.getElementById('error-password');
+
+  var form = document.querySelector('form');
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    var hasErrors = false;
+
+    if(username.value === "") {
+      hasErrors = true;
+      usernameError.innerText = "Please Enter your User Name";
+    } else {
+      hasErrors = false;
+      usernameError.innerText = "";
+    }
+
+    if(password.value === "") {
+      hasErrors = true;
+      passwordError.innerText = "Please Enter your Password";
+    } else {
+      hasErrors = false;
+      passwordError.innerText = "";
+    }
+
+    if (hasErrors === false) {
+      form.submit();
+    }
+  });
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->

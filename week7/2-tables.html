@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Intro Tables</title>
+  <style>
+    body {
+      font: 16px arial;
+      background-color: #c0c0c0;
+    }
+
+    table {
+      border: 1px solid black;
+    }
+
+    td, th {
+      border: 1px solid black;
+    }
+    .pre {
+      white-space: pre;
+    }
+
+    .chart {
+      margin: 1em 0;
+      border-collapse: collapse;
+      background-color: white;
+    }
+
+    .chart td,
+    .chart th {
+      padding: .2em .5em;
+      border-left: none;
+      border-right: none;
+    }
+
+    .chart th {
+      background-color: black;
+      color: white;
+    }
+
+    .year {
+      text-align: center;
+    }
+    .city {
+      width: 150px;
+      text-align: left;
+    }
+    .amount {
+      width: 70px;
+      text-align: right;
+    }
+
+    .even {
+      background-color: lavender;
+    }
+  </style>
+</head>
+<body>
+  <h1>Intro to tables</h1>
+
+  <!-- Start Table -->
+  <table>
+    <tr>
+      <td>My First Table</td>
+    </tr>
+  </table>
+  <!-- End Table -->
+
+  <h2>Add a row and column to the table</h2>
+
+  <!-- Start Table -->
+  <table>
+    <tr>
+      <td>Row 1 Col 1</td>
+      <td>Row 1 Col 2</td>
+    </tr>
+    <tr>
+      <td>Row 2 Col 1</td>
+      <td>Row 2 Col 2</td>
+    </tr>
+  </table>
+  <!-- End Table -->
+
+<!-- <div class="pre">
+Year   City       Amount
+2000   New York   100
+2015   Boston     75
+1994   Syracuse   201
+1875   Albany     4
+</div> -->
+  <table class="chart">
+    <tr>
+      <th class="year">Year</th>
+      <th class="city">City</th>
+      <th class="amount">Amount</td>
+    </tr>
+    <tr>
+      <td class="year">2000</td>
+      <td class="city">New York</td>
+      <td class="amount">100</td>
+    </tr>
+    <tr class="even">
+      <td class="year">2015</td>
+      <td class="city">Boston</td>
+      <td class="amount">75</td>
+    </tr>
+    <tr>
+      <td class="year">1994</td>
+      <td class="city">Syracuse</td>
+      <td class="amount">201</td>
+    </tr>
+    <tr class="even">
+      <td class="year">1875</td>
+      <td class="city">Albany</td>
+      <td class="amount">4</td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  font: 16px arial;
+  background-color: #c0c0c0;
+  color: #333333;
+}
+
+div {
+  /*border-style: solid;
+  border-color: darkblue;
+  border-width: 10px;*/
+
+  border: 10px solid darkblue;
+}
+
+.example {
+  border-color: orange;
+}
+
+.content {
+  border-bottom-color: green;
+  border-radius: 30px;
+}
+
+li {
+  border-bottom: 2px solid black;
+}
+
+li:last-child {
+  border-bottom: none;
+}

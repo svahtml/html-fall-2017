@@ -1,0 +1,80 @@
+body {
+  font: 16px arial;
+  background-color: #c0c0c0;
+  margin: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+main {
+  background: white;
+  padding: 2em;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+main p {
+  margin: 1em 0;
+}
+
+.padding-example {
+  background-color: white;
+  text-align: justify;
+  border: 3px solid #ff00cc;
+  /*padding-top: 1em;
+  padding-right: 2em;
+  padding-bottom: 3em;
+  padding-left: 4em;*/
+  padding: 1em;
+}
+
+.margin-example {
+  background-color: #cc00ff;
+  color: white;
+  border: 3px solid black;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.example {
+  background-color: lime;
+  border: 3px solid black;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.example p {
+  margin: 0;
+}
+
+.highlight-box {
+  background-color: lightgray;
+  padding: 1em 2em;
+  margin: 1em 0;
+}
+
+.highlight-box p {
+  margin: 1em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

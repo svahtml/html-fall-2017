@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <style>
+    label {
+      display: block;
+    }
+    input {
+      border: 3px solid black;
+      border-radius: 5px;
+    }
+
+    .row {
+      border: 1px solid black;
+      padding: 1em;
+    }
+
+    .row label {
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+<main class="wrapper">
+  <header>
+    <h1>Forms</h1>
+  </header>
+  <div class="content-area">
+    <form action="" method="">
+      <h2>Login</h2>
+      <label for="username">User name</label>
+      <input type="text" id="username" name="username" value="danhahn">
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="user@domain.com">
+
+      <h2>Select Color</h2>
+      <input type="radio" name="color" id="red" value="red">
+      <label for="red">Red</label>
+      <input type="radio" name="color" id="green" value="green" disabled>
+      <label for="green">Green</label>
+      <input type="radio" name="color" id="blue" value="blue" checked>
+      <label for="blue">Blue</label>
+
+      <h2>Pick Toppings</h2>
+
+      <div class="row">
+        <input type="checkbox" name="topping" id="cheese" value="c">
+        <label for="cheese">Cheese</label>
+      </div>
+
+      <div class="row">
+        <input type="checkbox" name="topping" id="pepperoni" value="p">
+        <label for="pepperoni">Pepperoni</label>
+      </div>
+
+      <div class="row">
+        <input type="checkbox" name="topping" id="sausage" value="s">
+        <label for="sausage">Sausage</label>
+      </div>
+
+      <h2>Select Car</h2>
+      <select name="car-type" id="car-type">
+        <option value="ford">Ford</option>
+        <option value="chevy">Chevy</option>
+        <option value="dodge">Dodge</option>
+      </select>
+
+      <h2>Write Message</h2>
+      <textarea name="msg" id="msg" rows="5" cols="40"></textarea>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+</main>
+
+
+</body>
+</html>
+
+
+
+
+
+<!--  -->

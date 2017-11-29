@@ -1,0 +1,58 @@
+/*@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:100,400');*/
+
+body {
+  font: 16px arial;
+  background-color: #c0c0c0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  background-color: #fff;
+  padding: 1em;
+  margin: 0 auto;
+  width: 800px;
+}
+
+h1 {
+  color: #B22222;
+}
+
+h2 {
+  color: #DC143C;
+  font-weight: 100;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+ol {
+  padding-left: 25px;
+  line-height: 1.5em;
+}
+
+.google-font {
+  color: #FF6347;
+  font-size: 2em;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

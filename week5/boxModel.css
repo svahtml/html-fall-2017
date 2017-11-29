@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #c0c0c0;
+	font: 16px arial;
+}
+
+.box-model {
+	background-color: pink;
+	width: 340px;
+	height: 140px;
+	padding: 20px;
+	border: 10px solid black;
+	margin-bottom: 20px;
+	box-sizing: content-box;
+}
+
+/*
+ starting width - (padding left + padding right) - (border left + border right) = real width
+
+400 - (20 * 2) - (10 * 2) = 340
+
+ */
+
+.box-sizing {
+	background-color: lightblue;
+	width: 400px;
+	height: 200px;
+	padding: 1em;
+	border: 10px solid black;
+}
